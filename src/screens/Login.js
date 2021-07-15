@@ -23,7 +23,7 @@ const height = Dimensions.get('window').height;
 const width = Dimensions.get('window').width;
 
 
-export default class LogIn extends React.Component {
+export class LogIn extends React.Component {
   render(){
     return (
 <SafeAreaView style={{ flex: 1 }}>
