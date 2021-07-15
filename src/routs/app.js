@@ -10,7 +10,7 @@ import { LogIn } from '../screens/Login';
 const Stack = createStackNavigator();
 
 export default AppStack = (props) => {
-   const isLoged = true;
+    isLoged = true;
     return (
         <Stack.Navigator headerMode="none">
             {
